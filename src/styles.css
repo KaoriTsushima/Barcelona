@@ -1,5 +1,12 @@
 h1 {
   text-align: center;
+  padding: 20pt;
+}
+.card {
+  margin-bottom: 5pt;
+}
+.contents h2 {
+  padding: 10pt;
 }
 .card-body h4 {
   font-weight: bold;
@@ -7,16 +14,20 @@ h1 {
 }
 .card-container {
   display: flex;
-  max-width: 990px;
+  max-width: 900px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .card {
-  max-width: 300px;
+  max-width: 400px;
   padding: 10pt;
 }
 .img {
   max-width: 100%;
   height: auto;
+}
+h5 {
+  padding: 10pt;
+  margin-bottom: 10pt;
 }
